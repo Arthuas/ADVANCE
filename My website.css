@@ -3,6 +3,7 @@
   color:white;
 }
 
+/* Here references to the footer function, which located at the bottom of the page, and the background change the background color, the color change the text color */
 
 div.background {
     background-color:white;
@@ -10,6 +11,8 @@ div.background {
     margin: 2px 0 20px 0;
     padding: 20px;
 }
+
+/* Here references to the division, all the color is white in order to present the text clearly and without other obstacles. */
 
 ul {
     list-style-type: none;
@@ -19,9 +22,13 @@ ul {
     background-color: #333;
 }
 
+/* Success! */
+
 li {
     float: left;
 }
+
+/* here use the float to set the navigation to bar start at the left side */
 
 li a {
     display: block;
@@ -31,13 +38,19 @@ li a {
     text-decoration: none;
 }
 
+/* here set the size of the nagivation bar and hide its boarder */
+
 li a:hover {
     background-color: #111;
 }
 
+/* here it set the background color of the navigation bar to black  */
+
 .active{
     background-color:rgb(255,0,0)
 }
+
+/* here the class active references to the navigation bar, in which the background color will be red if it is on one of the page */
 
 * {
     box-sizing: border-box;
@@ -52,14 +65,18 @@ li a:hover {
 	column-count: 4;
 }
 
+/* here have a class named box1. It create many columes and the spaces between them is 4 */
+
 .box2 {
 	-webkit-column-width: 50px;
 	-moz-column-width: 50px;
 	column-width: 50px;
-		-webkit-column-count: 3;
+	-webkit-column-count: 3;
 	-moz-column-count: 3;
 	column-count: 3;
 }
+
+/* here have a class named box2. It create many columes and the spaces between them is 3 */
 
 .box3 {
 	-webkit-column-width: 250px;
@@ -70,3 +87,5 @@ li a:hover {
     column-width: 250px;
     
 }
+
+/* here have a class named box3. It create many columes and the spaces between them is 5 */
